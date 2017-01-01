@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+
+	</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form action="http://newsmax.com" method="GET">
+<!-- 	<label>Username: <input name="username" type="text" placeholder="username"></label>
+	
+	<label>Password: <input name="username" type="password" placeholder="password"></label> -->
+First Name: <input type="text" value="fn">
+Last Name: <input type="text" value="ln">	
+Male <input type="radio" value="male" name="sex">
+Female <input type="radio" value="female" name="sex">
+
+	<label for="email">Usernames: </label>
+	<input name="email" type="email" placeholder="email" required>
+	<label for="passord">Password:: </label> 
+	<input name="password" type="password" pattern=".{5,10}" required title="5 to 10 characters" placeholder="password" required>
+Birthday: <select name="month" placeholder="Month">
+<option value="">Month</option>
+<option value="January1">Jan1</option>
+<option value="January2">Jan2</option>
+<option value="January3">Jan3</option>
+</select>
+<select name="day" placeholder="Day">
+<option value="">Day</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select>
+<select name="year" placeholder="Year">
+<option value="">Year</option>
+<option value="1969">1969</option>
+<option value="1970">1970</option>
+<option value="1971">1971</option>
+</select>
+I agree to the terms and conditions <input type="checkbox" name="ters" required>
+	<input type="submit">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo list</title>
+	<link rel="stylesheet" type="text/css" href="todos.css">
+</head>
+<body>
+<h1>Todo list</h1>
+
+<ul>
+	<li class="completed"><input type="checked"> Walk rusty</li>
+	<li class="completed"><input type="checked">Buy grocercies</li>
+	<li id="special"><input type="checked">Finish recording CSS Videos</li>
+</ul>
+
+</body>
+</html>
